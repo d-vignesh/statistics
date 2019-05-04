@@ -1,0 +1,53 @@
+
+INTRODUCTION :
+
+The topic that will be analysed here is ' whether demonetization had a impact on the mobile banking sector'. Demonetization is the withdrawal of a curreny from use. Indian government implemented a demonetization act in 2016. Even thought new currency notes we replaced for old once, Demonetization forced large number of individuals to opt for digital transaction. As moving towards a cashless society is important for the development of the society , i am interested in analysing whether demonetization in some way paved a path for a cashless economy.
+The data is collected from RBI's Database on Indian Economy. A sample data from (January 2017 -  october 2018)[ time period after demonetization] and (January 2015 - october 2016) is considered.
+
+
+
+RESEARCH QUESTION AND HYPOTHESIS :
+
+The question we are trying to get answer is ' whether the implementation of Demonetization lead to the increase in transactions done by mobile banking'. Lets take MB as average mobile transaction before demonetization and MBD as average mobile transaction after demonetization.
+
+Hypothesis to be tested :
+	- Null hypothesis : MBD <= MB ( mobile banking rate after demonetization is less than or equal to mobile banking before demonetization )
+
+	- Alternate hypothesis : MBD > MB ( mobile banking rate after demonetization is greater than mobile banking before demonetization)
+
+EXPERIMENTAL DESIGN :
+
+Test method used for this analysis is 't-test'. i am choosing t-test because we have to samples to be compared ( mobile banking data before and after demonetization) and also we don't have any data about the population parameters.
+t-test is suitable when we have to compare to samples and we only have data about sample statistics.
+
+CALCULATION :
+
+
+data of mobile banking Value ( in Rupees billion ) from (january 2015 - october 2016) and from (january 2017 - october 2018) is available.
+degree of freedom = ( 22 + 22 - 2 ) = 42.
+alpha level = 0.05 ( we are looking for a 95% confidence level)
+
+t-statistic formula :
+		_        ⏤⏤⏤⏤⏤⏤⏤    
+	t = x - µ / ⎷s1^2 + s2^2 
+                  ----   ----
+                   n1     n2
+          _
+    where x is the sample mean ( mobile banking value mean after demonetization)
+    µ is the population mean ( mobile banking value mean before demonetization)
+    S it the sample standard deviation
+    n sample size.
+
+t-score = 8.1395
+t-critical = 2.021
+
+
+RESULT :
+
+ t-score (8.1395) > t-critical (2.021).
+ hence the new mean obtained after the demonetization lies in the critical region.
+ this support our alternative hypothesis (Mobile Banking value after demonetization > Mobile Banking Value before demonetization). So we can reject the null hypothesis.
+
+Conclusion :
+
+ The demonetization did had a impact in increasing the mobile banking value. Eventhough our data supported our hypothesis and gave a conclusion that mobile banking increased after demonetization , we may have to conduct more analysis on this topic as there may be many lurking variable influencing our result. One example lurking variable would be the developement in mobile industry in India and availability of smartphones at cheap price.But i conclude with the decision that demonetization contribute to a considerable proportion in the reasons for the increase in mobile banking in recent year.
