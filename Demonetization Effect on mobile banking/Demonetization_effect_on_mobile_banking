@@ -17,8 +17,8 @@ Hypothesis to be tested :
 
 EXPERIMENTAL DESIGN :
 
-Test method used for this analysis is 't-test'. i am choosing t-test because we have to samples to be compared ( mobile banking data before and after demonetization) and also we don't have any data about the population parameters.
-t-test is suitable when we have to compare to samples and we only have data about sample statistics.
+Test method used for this analysis is 't-test'. i am choosing t-test because we have two samples to be compared ( mobile banking data before and after demonetization) and also we don't have any data about the population parameters.
+t-test is suitable when we have to compare two samples and we only have data about sample statistics.
 
 CALCULATION :
 
@@ -28,7 +28,7 @@ degree of freedom = ( 22 + 22 - 2 ) = 42.
 alpha level = 0.05 ( we are looking for a 95% confidence level)
 
 t-statistic formula :
-		_        ⏤⏤⏤⏤⏤⏤⏤    
+		_           ⏤⏤⏤⏤⏤⏤⏤    
 	t = x - µ / ⎷s1^2 + s2^2 
                   ----   ----
                    n1     n2
