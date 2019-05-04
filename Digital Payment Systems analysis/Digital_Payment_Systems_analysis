@@ -1,0 +1,48 @@
+
+INTRODUCTION :
+
+The topic i will analyse here is ' whether there is a significant difference  between the number of transactions made by the different payment systems.' Banks provide different types of payment systems for transactions of money a few of which are RTGS, NEFT, CTS, IMPS, UPI, Debit and credit cards at POS, mobile banking. Let us make an analysis to check whether there is a significant difference in the number of transactions made by these methods.The data is obtained from NPCI's Electornic payment system - representative data by RBI
+
+RESEARCH QUESTION AND HYPOTHESIS :
+
+The question we are trying to answer through this analysis is ' whether the number of transactions made by different payment system have a significant difference'. The payment systems that we are going to consider for our analysis is RTGS, NEFT, CTS, IMPS, UPI, Debit and Credit cards at POS, mobile banking.Let us consider their respective means as 
+µr, µn, µc, µi, µu, µd, µm .
+
+Hypothesis to test :
+
+	- Null hypothesis : µr = µn = µc = µi = µu = µd = µm ( the volumes of transactions done be different payment methods are same)
+
+	- alternative hypothesis : any of the two payment methods have different volumes of transactions.
+
+EXPERIMENTAL DESIGN :
+
+Test method used for this analysis is 'ANOVA ( analysis of variance)'. As we have 7 different samples( one sample for each payment method) , we have to check between all the samples and the test method suitable for n sample analysis is ANOVA.
+
+
+CALCULATION :
+
+value computed in ANOVA testing is called f-score.
+f-score = 	Variance between group  =  Sum of squares between group / degree of freedom between group
+			----------------------     --------------------------------------------------------------
+			variance withing group     sum of squares within group / degree of freedom within group.
+
+
+sum of squares between group = 36802.5891
+sum of squares withing group = 86738.6263
+degree of freedom b/t group  = (7-1) = 6
+degree of freedom within group = ( 16 - 1) * 7 = 105
+variance between group = 6133.7648
+variance between group = 826.0822
+f-score  = 7.4251
+
+alpha level = 0.05
+f-critical = 2.17
+
+
+RESULT :
+
+f-score (7.4251) > f-critical(2.17). As f-score falls to the right of the f-critical, our value falls in the critical region and hence we can reject the null hypothesis. We therefore accept the alternative hypothesis ( there is a difference in the number of transactions done by different payment methods).
+
+CONCLUSION :
+
+The larger f-score we obtained may be due to the reason that there is a large number of transaction done using cards as cards are used for daily purchases compared to other transaction such as RTGS, NEFT etc. Also the UPI payment system is in its initial stage of development with steady increase montly.Some of these reasons might have caused the higher value of our f-score.However with the available data we can conclude that there is difference in the usage of the digital payment available.
