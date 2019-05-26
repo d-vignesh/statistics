@@ -28,10 +28,10 @@ degree of freedom = ( 22 + 22 - 2 ) = 42.
 alpha level = 0.05 ( we are looking for a 95% confidence level)
 
 t-statistic formula :
-		_           ⏤⏤⏤⏤⏤⏤⏤    
+		_    ⏤⏤⏤⏤⏤⏤⏤    
 	t = x - µ / ⎷s1^2 + s2^2 
-                  ----   ----
-                   n1     n2
+                      ----   ----
+                       n1     n2
           _
     where x is the sample mean ( mobile banking value mean after demonetization)
     µ is the population mean ( mobile banking value mean before demonetization)
