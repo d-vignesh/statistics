@@ -23,8 +23,8 @@ CALCULATION :
 
 value computed in ANOVA testing is called f-score.
 f-score = 	Variance between group  =  Sum of squares between group / degree of freedom between group
-			----------------------     --------------------------------------------------------------
-			variance withing group     sum of squares within group / degree of freedom within group.
+		----------------------     --------------------------------------------------------------
+		variance withing group     sum of squares within group / degree of freedom within group.
 
 
 sum of squares between group = 36802.5891
@@ -32,7 +32,7 @@ sum of squares withing group = 86738.6263
 degree of freedom b/t group  = (7-1) = 6
 degree of freedom within group = ( 16 - 1) * 7 = 105
 variance between group = 6133.7648
-variance between group = 826.0822
+variance within group = 826.0822
 f-score  = 7.4251
 
 alpha level = 0.05
@@ -45,4 +45,4 @@ f-score (7.4251) > f-critical(2.17). As f-score falls to the right of the f-crit
 
 CONCLUSION :
 
-The larger f-score we obtained may be due to the reason that there is a large number of transaction done using cards as cards are used for daily purchases compared to other transaction such as RTGS, NEFT etc. Also the UPI payment system is in its initial stage of development with steady increase montly.Some of these reasons might have caused the higher value of our f-score.However with the available data we can conclude that there is difference in the usage of the digital payment available.
+The larger f-score we obtained may be due to the reason that there is a large number of transaction done using cards as cards are used for daily purchases compared to other transaction such as RTGS, NEFT etc. Also the UPI payment system is in its initial stage of development with steady increase monthly.Some of these reasons might have caused the higher value of our f-score.However with the available data we can conclude that there is difference in the usage of the digital payment available.
